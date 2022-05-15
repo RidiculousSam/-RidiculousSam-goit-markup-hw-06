@@ -813,6 +813,8 @@ ul {
   position: absolute;
   top: 8px;
   right: 8px;
+  width: 30px;
+  height: 30px;
 }
 .icon-modal:hover {
   fill: #2196f3;
@@ -855,6 +857,7 @@ ul {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 10px;
 }
 .modal-input:hover {
   cursor: pointer;
@@ -900,8 +903,10 @@ ul {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
+  margin-bottom: 4px;
 
   color: #757575;
+  display: block;
 }
 .modal-comment {
   width: 100%;
@@ -932,7 +937,7 @@ ul {
   font-size: 14px;
   line-height: 0.58;
   letter-spacing: 0.03em;
-
+  margin-right: 4px;
   color: #757575;
   cursor: pointer;
 }
